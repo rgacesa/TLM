@@ -1,0 +1,127 @@
+digraph TaxG
+    {
+    root="N/D";
+    layout=twopi;
+    edge [style=dashed dir=back];
+    node [shape=plaintext];
+    ranksep=6;
+    label = "TAXONOMY OF RESULTS";
+    center = 1;
+# --- NODES FOLLOW --- 
+    "N/D"[shape=circle,label="",width=0.1,height=0.1]
+    "S:D. mojavensis"[shape=box width=0.01 height=0.01 style="rounded,filled,bold" color="#fec44f"  fillcolor="#00ee00" tooltip="HITS: 2 , best eV:0.0e+00, avg eV:0.0e+00, worst eV:0.0e+00" fontsize=6  label="S:D. mojavensis\n [H:2, eV:0.0e+00]"]
+    "P:Annelida"[shape=box width=0.01 height=0.01 style="rounded,filled,bold" color="#ec7014"  fillcolor="#00ee00" tooltip="HITS: 1 , best eV:0.0e+00, avg eV:0.0e+00, worst eV:0.0e+00" fontsize=10  label="P:Annelida\n [H:1, eV:0.0e+00]"]
+    "S:B. mori"[shape=box width=0.01 height=0.01 style="rounded,filled,bold" color="#ec7014"  fillcolor="#00ee00" tooltip="HITS: 1 , best eV:0.0e+00, avg eV:0.0e+00, worst eV:0.0e+00" fontsize=6  label="S:B. mori\n [H:1, eV:0.0e+00]"]
+    "S:D. virilis"[shape=box width=0.01 height=0.01 style="rounded,filled,bold" color="#fec44f"  fillcolor="#00ee00" tooltip="HITS: 2 , best eV:0.0e+00, avg eV:0.0e+00, worst eV:0.0e+00" fontsize=6  label="S:D. virilis\n [H:2, eV:0.0e+00]"]
+    "S:S. invicta"[shape=box width=0.01 height=0.01 style="rounded,filled,bold" color="#ec7014"  fillcolor="#00ee00" tooltip="HITS: 1 , best eV:0.0e+00, avg eV:0.0e+00, worst eV:0.0e+00" fontsize=6  label="S:S. invicta\n [H:1, eV:0.0e+00]"]
+    "S:O. niloticus"[shape=box width=0.01 height=0.01 style="rounded,filled,bold" color="#ec7014"  fillcolor="#00ee00" tooltip="HITS: 1 , best eV:0.0e+00, avg eV:0.0e+00, worst eV:0.0e+00" fontsize=6  label="S:O. niloticus\n [H:1, eV:0.0e+00]"]
+    "&C:O:Coelacanthiformes"[shape=circle,label="",width=0.05,height=0.05]
+    "S:D. grimshawi"[shape=box width=0.01 height=0.01 style="rounded,filled,bold" color="#fec44f"  fillcolor="#00ee00" tooltip="HITS: 2 , best eV:0.0e+00, avg eV:0.0e+00, worst eV:0.0e+00" fontsize=6  label="S:D. grimshawi\n [H:2, eV:0.0e+00]"]
+    "S:N. vitripennis"[shape=box width=0.01 height=0.01 style="rounded,filled,bold" color="#7fcdbb"  fillcolor="#00ee00" tooltip="HITS: 5 , best eV:0.0e+00, avg eV:0.0e+00, worst eV:0.0e+00" fontsize=6  label="S:N. vitripennis\n [H:5, eV:0.0e+00]"]
+    "&C:N/D"[shape=circle,label="",width=0.05,height=0.05]
+    "C:Mammalia"[shape=box width=0.01 height=0.01 style="rounded,filled,bold" color="#ec7014"  fillcolor="#00ee00" tooltip="HITS: 1 , best eV:0.0e+00, avg eV:0.0e+00, worst eV:0.0e+00" fontsize=8  label="C:Mammalia\n [H:1, eV:0.0e+00]"]
+    "P:Chordata"[shape=box width=0.01 height=0.01 style="rounded,filled,bold" color="#00ee00"  fillcolor="#00ee00" tooltip="HITS: 17 , best eV:0.0e+00, avg eV:0.0e+00, worst eV:0.0e+00" fontsize=10  label="P:Chordata\n [H:17, eV:0.0e+00]"]
+    "S:X. (Silurana)"[shape=box width=0.01 height=0.01 style="rounded,filled,bold" color="#c7e9b4"  fillcolor="#00ee00" tooltip="HITS: 3 , best eV:0.0e+00, avg eV:0.0e+00, worst eV:0.0e+00" fontsize=6  label="S:X. (Silurana)\n [H:3, eV:0.0e+00]"]
+    "S:D. plexippus"[shape=box width=0.01 height=0.01 style="rounded,filled,bold" color="#ec7014"  fillcolor="#00ee00" tooltip="HITS: 1 , best eV:0.0e+00, avg eV:0.0e+00, worst eV:0.0e+00" fontsize=6  label="S:D. plexippus\n [H:1, eV:0.0e+00]"]
+    "S:D. yakuba"[shape=box width=0.01 height=0.01 style="rounded,filled,bold" color="#fec44f"  fillcolor="#00ee00" tooltip="HITS: 2 , best eV:0.0e+00, avg eV:0.0e+00, worst eV:0.0e+00" fontsize=6  label="S:D. yakuba\n [H:2, eV:0.0e+00]"]
+    "S:D. pulex"[shape=box width=0.01 height=0.01 style="rounded,filled,bold" color="#ec7014"  fillcolor="#00ee00" tooltip="HITS: 1 , best eV:0.0e+00, avg eV:0.0e+00, worst eV:0.0e+00" fontsize=6  label="S:D. pulex\n [H:1, eV:0.0e+00]"]
+    "S:B. terrestris"[shape=box width=0.01 height=0.01 style="rounded,filled,bold" color="#ec7014"  fillcolor="#00ee00" tooltip="HITS: 1 , best eV:0.0e+00, avg eV:0.0e+00, worst eV:0.0e+00" fontsize=6  label="S:B. terrestris\n [H:1, eV:0.0e+00]"]
+    "S:C. capitata"[shape=box width=0.01 height=0.01 style="rounded,filled,bold" color="#ec7014"  fillcolor="#00ee00" tooltip="HITS: 1 , best eV:0.0e+00, avg eV:0.0e+00, worst eV:0.0e+00" fontsize=6  label="S:C. capitata\n [H:1, eV:0.0e+00]"]
+    "P:Arthropoda"[shape=box width=0.01 height=0.01 style="rounded,filled,bold" color="#00ee00"  fillcolor="#00ee00" tooltip="HITS: 62 , best eV:0.0e+00, avg eV:5.7e-17, worst eV:3.5e-15" fontsize=10  label="P:Arthropoda\n [H:62, eV:0.0e+00]"]
+    "S:D. ponderosae"[shape=box width=0.01 height=0.01 style="rounded,filled,bold" color="#ec7014"  fillcolor="#00ee00" tooltip="HITS: 1 , best eV:0.0e+00, avg eV:0.0e+00, worst eV:0.0e+00" fontsize=6  label="S:D. ponderosae\n [H:1, eV:0.0e+00]"]
+    "S:S. purpuratus"[shape=box width=0.01 height=0.01 style="rounded,filled,bold" color="#ec7014"  fillcolor="#00ee00" tooltip="HITS: 1 , best eV:0.0e+00, avg eV:0.0e+00, worst eV:0.0e+00" fontsize=6  label="S:S. purpuratus\n [H:1, eV:0.0e+00]"]
+    "S:B. impatiens"[shape=box width=0.01 height=0.01 style="rounded,filled,bold" color="#ec7014"  fillcolor="#00ee00" tooltip="HITS: 1 , best eV:0.0e+00, avg eV:0.0e+00, worst eV:0.0e+00" fontsize=6  label="S:B. impatiens\n [H:1, eV:0.0e+00]"]
+    "S:D. pseudoobscura"[shape=box width=0.01 height=0.01 style="rounded,filled,bold" color="#edf8b1"  fillcolor="#00ee00" tooltip="HITS: 4 , best eV:0.0e+00, avg eV:0.0e+00, worst eV:0.0e+00" fontsize=6  label="S:D. pseudoobscura\n [H:4, eV:0.0e+00]"]
+    "C:Echinoidea"[shape=box width=0.01 height=0.01 style="rounded,filled,bold" color="#ec7014"  fillcolor="#00ee00" tooltip="HITS: 1 , best eV:0.0e+00, avg eV:0.0e+00, worst eV:0.0e+00" fontsize=8  label="C:Echinoidea\n [H:1, eV:0.0e+00]"]
+    "S:M. rotundata"[shape=box width=0.01 height=0.01 style="rounded,filled,bold" color="#ec7014"  fillcolor="#00ee00" tooltip="HITS: 1 , best eV:0.0e+00, avg eV:0.0e+00, worst eV:0.0e+00" fontsize=6  label="S:M. rotundata\n [H:1, eV:0.0e+00]"]
+    "K:Metazoa"[shape=box width=0.01 height=0.01 style="rounded,filled,bold" color="#00ee00"  fillcolor="#00ee00" tooltip="HITS: 81 , best eV:0.0e+00, avg eV:4.3e-17, worst eV:3.5e-15" shape=ellipse fontsize=12  label="K:Metazoa\n [H:81, eV:0.0e+00]"]
+    "S:H. burtoni"[shape=box width=0.01 height=0.01 style="rounded,filled,bold" color="#ec7014"  fillcolor="#00ee00" tooltip="HITS: 1 , best eV:0.0e+00, avg eV:0.0e+00, worst eV:0.0e+00" fontsize=6  label="S:H. burtoni\n [H:1, eV:0.0e+00]"]
+    "S:A. florea"[shape=box width=0.01 height=0.01 style="rounded,filled,bold" color="#ec7014"  fillcolor="#00ee00" tooltip="HITS: 1 , best eV:0.0e+00, avg eV:0.0e+00, worst eV:0.0e+00" fontsize=6  label="S:A. florea\n [H:1, eV:0.0e+00]"]
+    "C:Polychaeta"[shape=box width=0.01 height=0.01 style="rounded,filled,bold" color="#ec7014"  fillcolor="#00ee00" tooltip="HITS: 1 , best eV:0.0e+00, avg eV:0.0e+00, worst eV:0.0e+00" fontsize=8  label="C:Polychaeta\n [H:1, eV:0.0e+00]"]
+    "C:Actinopteri"[shape=box width=0.01 height=0.01 style="rounded,filled,bold" color="#00ee00"  fillcolor="#00ee00" tooltip="HITS: 10 , best eV:0.0e+00, avg eV:0.0e+00, worst eV:0.0e+00" fontsize=8  label="C:Actinopteri\n [H:10, eV:0.0e+00]"]
+    "S:H. saltator"[shape=box width=0.01 height=0.01 style="rounded,filled,bold" color="#fec44f"  fillcolor="#00ee00" tooltip="HITS: 2 , best eV:0.0e+00, avg eV:1.8e-15, worst eV:3.5e-15" fontsize=6  label="S:H. saltator\n [H:2, eV:0.0e+00]"]
+    "S:D. willistoni"[shape=box width=0.01 height=0.01 style="rounded,filled,bold" color="#fec44f"  fillcolor="#00ee00" tooltip="HITS: 2 , best eV:0.0e+00, avg eV:0.0e+00, worst eV:0.0e+00" fontsize=6  label="S:D. willistoni\n [H:2, eV:0.0e+00]"]
+    "S:D. simulans"[shape=box width=0.01 height=0.01 style="rounded,filled,bold" color="#fec44f"  fillcolor="#00ee00" tooltip="HITS: 2 , best eV:0.0e+00, avg eV:0.0e+00, worst eV:0.0e+00" fontsize=6  label="S:D. simulans\n [H:2, eV:0.0e+00]"]
+    "S:A. aegypti"[shape=box width=0.01 height=0.01 style="rounded,filled,bold" color="#fec44f"  fillcolor="#00ee00" tooltip="HITS: 2 , best eV:0.0e+00, avg eV:0.0e+00, worst eV:0.0e+00" fontsize=6  label="S:A. aegypti\n [H:2, eV:0.0e+00]"]
+    "C:Amphibia"[shape=box width=0.01 height=0.01 style="rounded,filled,bold" color="#c7e9b4"  fillcolor="#00ee00" tooltip="HITS: 3 , best eV:0.0e+00, avg eV:0.0e+00, worst eV:0.0e+00" fontsize=8  label="C:Amphibia\n [H:3, eV:0.0e+00]"]
+    "S:A. echinatior"[shape=box width=0.01 height=0.01 style="rounded,filled,bold" color="#ec7014"  fillcolor="#00ee00" tooltip="HITS: 1 , best eV:0.0e+00, avg eV:0.0e+00, worst eV:0.0e+00" fontsize=6  label="S:A. echinatior\n [H:1, eV:0.0e+00]"]
+    "S:D. ananassae"[shape=box width=0.01 height=0.01 style="rounded,filled,bold" color="#fec44f"  fillcolor="#00ee00" tooltip="HITS: 2 , best eV:0.0e+00, avg eV:0.0e+00, worst eV:0.0e+00" fontsize=6  label="S:D. ananassae\n [H:2, eV:0.0e+00]"]
+    "S:D. melanogaster"[shape=box width=0.01 height=0.01 style="rounded,filled,bold" color="#00ee00"  fillcolor="#00ee00" tooltip="HITS: 10 , best eV:0.0e+00, avg eV:0.0e+00, worst eV:0.0e+00" fontsize=6  label="S:D. melanogaster\n [H:10, eV:0.0e+00]"]
+    "S:L. chalumnae"[shape=box width=0.01 height=0.01 style="rounded,filled,bold" color="#ec7014"  fillcolor="#00ee00" tooltip="HITS: 1 , best eV:0.0e+00, avg eV:0.0e+00, worst eV:0.0e+00" fontsize=6  label="S:L. chalumnae\n [H:1, eV:0.0e+00]"]
+    "S:C. floridanus"[shape=box width=0.01 height=0.01 style="rounded,filled,bold" color="#ec7014"  fillcolor="#00ee00" tooltip="HITS: 1 , best eV:0.0e+00, avg eV:0.0e+00, worst eV:0.0e+00" fontsize=6  label="S:C. floridanus\n [H:1, eV:0.0e+00]"]
+    "S:P. humanus"[shape=box width=0.01 height=0.01 style="rounded,filled,bold" color="#fec44f"  fillcolor="#00ee00" tooltip="HITS: 2 , best eV:0.0e+00, avg eV:0.0e+00, worst eV:0.0e+00" fontsize=6  label="S:P. humanus\n [H:2, eV:0.0e+00]"]
+    "S:D. sechellia"[shape=box width=0.01 height=0.01 style="rounded,filled,bold" color="#fec44f"  fillcolor="#00ee00" tooltip="HITS: 2 , best eV:0.0e+00, avg eV:0.0e+00, worst eV:0.0e+00" fontsize=6  label="S:D. sechellia\n [H:2, eV:0.0e+00]"]
+    "S:T. castaneum"[shape=box width=0.01 height=0.01 style="rounded,filled,bold" color="#ec7014"  fillcolor="#00ee00" tooltip="HITS: 1 , best eV:0.0e+00, avg eV:0.0e+00, worst eV:0.0e+00" fontsize=6  label="S:T. castaneum\n [H:1, eV:0.0e+00]"]
+    "S:D. persimilis"[shape=box width=0.01 height=0.01 style="rounded,filled,bold" color="#fec44f"  fillcolor="#00ee00" tooltip="HITS: 2 , best eV:0.0e+00, avg eV:0.0e+00, worst eV:0.0e+00" fontsize=6  label="S:D. persimilis\n [H:2, eV:0.0e+00]"]
+    "S:C. quinquefasciatus"[shape=box width=0.01 height=0.01 style="rounded,filled,bold" color="#fec44f"  fillcolor="#00ee00" tooltip="HITS: 2 , best eV:0.0e+00, avg eV:0.0e+00, worst eV:0.0e+00" fontsize=6  label="S:C. quinquefasciatus\n [H:2, eV:0.0e+00]"]
+    "S:S. harrisii"[shape=box width=0.01 height=0.01 style="rounded,filled,bold" color="#ec7014"  fillcolor="#00ee00" tooltip="HITS: 1 , best eV:0.0e+00, avg eV:0.0e+00, worst eV:0.0e+00" fontsize=6  label="S:S. harrisii\n [H:1, eV:0.0e+00]"]
+    "P:Echinodermata"[shape=box width=0.01 height=0.01 style="rounded,filled,bold" color="#ec7014"  fillcolor="#00ee00" tooltip="HITS: 1 , best eV:0.0e+00, avg eV:0.0e+00, worst eV:0.0e+00" fontsize=10  label="P:Echinodermata\n [H:1, eV:0.0e+00]"]
+    "S:A. gambiae"[shape=box width=0.01 height=0.01 style="rounded,filled,bold" color="#fec44f"  fillcolor="#00ee00" tooltip="HITS: 2 , best eV:0.0e+00, avg eV:0.0e+00, worst eV:0.0e+00" fontsize=6  label="S:A. gambiae\n [H:2, eV:0.0e+00]"]
+    "S:M. zebra"[shape=box width=0.01 height=0.01 style="rounded,filled,bold" color="#41b6c4"  fillcolor="#00ee00" tooltip="HITS: 6 , best eV:0.0e+00, avg eV:0.0e+00, worst eV:0.0e+00" fontsize=6  label="S:M. zebra\n [H:6, eV:0.0e+00]"]
+    "S:T. rubripes"[shape=box width=0.01 height=0.01 style="rounded,filled,bold" color="#ec7014"  fillcolor="#00ee00" tooltip="HITS: 1 , best eV:0.0e+00, avg eV:0.0e+00, worst eV:0.0e+00" fontsize=6  label="S:T. rubripes\n [H:1, eV:0.0e+00]"]
+    "S:P. nyererei"[shape=box width=0.01 height=0.01 style="rounded,filled,bold" color="#ec7014"  fillcolor="#00ee00" tooltip="HITS: 1 , best eV:0.0e+00, avg eV:0.0e+00, worst eV:0.0e+00" fontsize=6  label="S:P. nyererei\n [H:1, eV:0.0e+00]"]
+    "S:D. erecta"[shape=box width=0.01 height=0.01 style="rounded,filled,bold" color="#fec44f"  fillcolor="#00ee00" tooltip="HITS: 2 , best eV:0.0e+00, avg eV:0.0e+00, worst eV:0.0e+00" fontsize=6  label="S:D. erecta\n [H:2, eV:0.0e+00]"]
+    "C:Branchiopoda"[shape=box width=0.01 height=0.01 style="rounded,filled,bold" color="#ec7014"  fillcolor="#00ee00" tooltip="HITS: 1 , best eV:0.0e+00, avg eV:0.0e+00, worst eV:0.0e+00" fontsize=8  label="C:Branchiopoda\n [H:1, eV:0.0e+00]"]
+    "C:Insecta"[shape=box width=0.01 height=0.01 style="rounded,filled,bold" color="#00ee00"  fillcolor="#00ee00" tooltip="HITS: 61 , best eV:0.0e+00, avg eV:5.8e-17, worst eV:3.5e-15" fontsize=8  label="C:Insecta\n [H:61, eV:0.0e+00]"]
+    "S:C. teleta"[shape=box width=0.01 height=0.01 style="rounded,filled,bold" color="#ec7014"  fillcolor="#00ee00" tooltip="HITS: 1 , best eV:0.0e+00, avg eV:0.0e+00, worst eV:0.0e+00" fontsize=6  label="S:C. teleta\n [H:1, eV:0.0e+00]"]
+    "S:B. floridae"[shape=box width=0.01 height=0.01 style="rounded,filled,bold" color="#fec44f"  fillcolor="#00ee00" tooltip="HITS: 2 , best eV:0.0e+00, avg eV:0.0e+00, worst eV:0.0e+00" fontsize=6  label="S:B. floridae\n [H:2, eV:0.0e+00]"]
+    "D:Eukaryota"[shape=box width=0.01 height=0.01 style="rounded,filled,bold" color="#00ee00"  fillcolor="#00ee00" tooltip="HITS: 81 , best eV:0.0e+00, avg eV:4.3e-17, worst eV:3.5e-15" shape=circle fontsize=16  label="D:Eukaryota\n [H:81, eV:0.0e+00]"]
+# --- EDGES FOLLOW --- 
+    "S:D. mojavensis" -> "C:Insecta"[color = "#ff0000" ];
+    "P:Annelida" -> "K:Metazoa"[color = "#ff0000" ];
+    "S:B. mori" -> "C:Insecta"[color = "#ff0000" ];
+    "S:D. virilis" -> "C:Insecta"[color = "#ff0000" ];
+    "S:S. invicta" -> "C:Insecta"[color = "#ff0000" ];
+    "S:O. niloticus" -> "C:Actinopteri"[color = "#ff0000" ];
+    "&C:O:Coelacanthiformes" -> "P:Chordata"[color = "#ff0000" ];
+    "S:D. grimshawi" -> "C:Insecta"[color = "#ff0000" ];
+    "S:N. vitripennis" -> "C:Insecta"[color = "#ff0000" ];
+    "&C:N/D" -> "P:Chordata"[color = "#ff0000" ];
+    "C:Mammalia" -> "P:Chordata"[color = "#ff0000" ];
+    "P:Chordata" -> "K:Metazoa"[color = "#ff0000" ];
+    "S:X. (Silurana)" -> "C:Amphibia"[color = "#ff0000" ];
+    "S:D. plexippus" -> "C:Insecta"[color = "#ff0000" ];
+    "S:D. yakuba" -> "C:Insecta"[color = "#ff0000" ];
+    "S:D. pulex" -> "C:Branchiopoda"[color = "#ff0000" ];
+    "S:B. terrestris" -> "C:Insecta"[color = "#ff0000" ];
+    "S:C. capitata" -> "C:Insecta"[color = "#ff0000" ];
+    "P:Arthropoda" -> "K:Metazoa"[color = "#ff0000" ];
+    "S:D. ponderosae" -> "C:Insecta"[color = "#ff0000" ];
+    "S:S. purpuratus" -> "C:Echinoidea"[color = "#ff0000" ];
+    "S:B. impatiens" -> "C:Insecta"[color = "#ff0000" ];
+    "S:D. pseudoobscura" -> "C:Insecta"[color = "#ff0000" ];
+    "C:Echinoidea" -> "P:Echinodermata"[color = "#ff0000" ];
+    "S:M. rotundata" -> "C:Insecta"[color = "#ff0000" ];
+    "K:Metazoa" -> "D:Eukaryota"[color = "#ff0000" ];
+    "S:H. burtoni" -> "C:Actinopteri"[color = "#ff0000" ];
+    "S:A. florea" -> "C:Insecta"[color = "#ff0000" ];
+    "C:Polychaeta" -> "P:Annelida"[color = "#ff0000" ];
+    "C:Actinopteri" -> "P:Chordata"[color = "#ff0000" ];
+    "S:H. saltator" -> "C:Insecta"[color = "#ff0000" ];
+    "S:D. willistoni" -> "C:Insecta"[color = "#ff0000" ];
+    "S:D. simulans" -> "C:Insecta"[color = "#ff0000" ];
+    "S:A. aegypti" -> "C:Insecta"[color = "#ff0000" ];
+    "C:Amphibia" -> "P:Chordata"[color = "#ff0000" ];
+    "S:A. echinatior" -> "C:Insecta"[color = "#ff0000" ];
+    "S:D. ananassae" -> "C:Insecta"[color = "#ff0000" ];
+    "S:D. melanogaster" -> "C:Insecta"[color = "#ff0000" ];
+    "S:L. chalumnae" -> "&C:O:Coelacanthiformes"[color = "#ff0000" ];
+    "S:C. floridanus" -> "C:Insecta"[color = "#ff0000" ];
+    "S:P. humanus" -> "C:Insecta"[color = "#ff0000" ];
+    "S:D. sechellia" -> "C:Insecta"[color = "#ff0000" ];
+    "S:T. castaneum" -> "C:Insecta"[color = "#ff0000" ];
+    "S:D. persimilis" -> "C:Insecta"[color = "#ff0000" ];
+    "S:C. quinquefasciatus" -> "C:Insecta"[color = "#ff0000" ];
+    "S:S. harrisii" -> "C:Mammalia"[color = "#ff0000" ];
+    "P:Echinodermata" -> "K:Metazoa"[color = "#ff0000" ];
+    "S:A. gambiae" -> "C:Insecta"[color = "#ff0000" ];
+    "S:M. zebra" -> "C:Actinopteri"[color = "#ff0000" ];
+    "S:T. rubripes" -> "C:Actinopteri"[color = "#ff0000" ];
+    "S:P. nyererei" -> "C:Actinopteri"[color = "#ff0000" ];
+    "S:D. erecta" -> "C:Insecta"[color = "#ff0000" ];
+    "C:Branchiopoda" -> "P:Arthropoda"[color = "#ff0000" ];
+    "C:Insecta" -> "P:Arthropoda"[color = "#ff0000" ];
+    "S:C. teleta" -> "C:Polychaeta"[color = "#ff0000" ];
+    "S:B. floridae" -> "&C:N/D"[color = "#ff0000" ];
+    "D:Eukaryota" -> "N/D"[];
+}

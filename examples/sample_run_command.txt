@@ -1,0 +1,5 @@
+./TLM.py -I testor.xml -X ~/DBs/NCBI_tax_27_01_2015/
+
+Note: 
+Replace ~/DBs/NCBI_tax_27_01_2015/ with full path to folder containing
+binarized NCBI taxonomy database, generated using binarizeNCBItax.py
